@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+    max-width: 800px;
+    background-color: rgb(236, 217, 217);
+    color: black;
+}
+
+h1 {
+    color: blue;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: black;
+}
+
+article + article {
+    margin-top: 40px;
+}
+
+p {
+    line-height: 1.2rem;
+}
