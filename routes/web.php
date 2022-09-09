@@ -22,7 +22,7 @@ Route::get('/post/{post_id}', function ($id) {
     ]);
 });
 
-Route::get('/categories/{category}', function (Category $category) {
+Route::get('/categories/{category:category_name}', function (Category $category) {
     return view('posts', [
         'posts' => $category->posts
     ]);
