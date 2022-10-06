@@ -1,0 +1,1 @@
+<x-dropdown :categories="$categories" :current_category="$current_category" />
